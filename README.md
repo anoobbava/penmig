@@ -1,15 +1,20 @@
-# PendMigration
+# Penmig
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pend_migration`. To experiment with that code, run `bin/console` for an interactive prompt.
+By this gem; we dont have to worry about migration is development any more. 
+This gem will create an initializer file which will migrate all the migrations in our project 
+files.At the time of loading the development server it will migrate the migrations then only 
+it starts the server 
 
-TODO: Delete this and the text above, and describe your gem
+Currently if we have pending migrations , we can't identify at the time of booting the development 
+server. .It will be only notfied at the time of redirecting the pages.
+
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'pend_migration'
+gem 'penmig'
 ```
 
 And then execute:
@@ -18,17 +23,20 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install pend_migration
-
+    $ gem install penmig
 ## Usage
 
-TODO: Write usage instructions here
+to create the generator file , use
+    $ rails g penmig
+
+to destory the generator file
+    $ rails d penmig
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+As i know, it  works on a simple logic, but i want to improve more. Suggestions are welcomed in this
+case. please put mails in anoob.bava@gmail.com
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
@@ -38,4 +46,9 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+## Special Thanks
+  
+  Abhilash Vannarath --> abhilash1985
+  Shaiju E           --> eshaiju
 

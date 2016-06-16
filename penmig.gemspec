@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary            = %q{ Dont Worry About Pending migrations any more.}
   spec.description        = %q{ This gem do all the pending migrations when starts your rails server 
                           Dev mode.}
-  spec.homepage           = ''
+  spec.homepage           = 'https://github.com/anoobbava/penmig'
   spec.license            = 'MIT'
   spec.require_paths      = %w[lib]
   spec.files              =   Dir['bin/**/*'] +
@@ -22,6 +22,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency 'rails', '~> 3.2.0'
-  spec.add_development_dependency "rspec"
+  spec.add_development_dependency 'rails', '~> 3.2', '>= 3.2.0'
+  spec.add_development_dependency 'rspec', '~> 0'
 end

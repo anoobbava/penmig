@@ -1,12 +1,12 @@
 # Penmig
 
-By this gem; we dont have to worry about migration is development any more. 
-This gem will create an initializer file which will migrate all the migrations in our project 
-files.At the time of loading the development server it will migrate the migrations then only 
-it starts the server 
+We dont have to worry about migration is development any more. 
+This gem will create an initializer file which will run all the migrations in our project 
+file. At the time of loading you development server it will run the migrations and then starts your 
+server
 
 Currently if we have pending migrations , we can't identify at the time of booting the development 
-server. .It will be only notfied at the time of redirecting the pages.
+server. It will be only notfied at the time of redirecting the pages. penmig helps to avoid that.
 
 
 ## Installation
@@ -27,9 +27,11 @@ Or install it yourself as:
 ## Usage
 
 to create the generator file , use
+
     $ rails g penmig
 
 to destory the generator file
+
     $ rails d penmig
 
 ## Development
@@ -40,7 +42,7 @@ case. please put mails in anoob.bava@gmail.com
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/pend_migration. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[anoobava]/penmig. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 
 ## License
@@ -50,5 +52,6 @@ The gem is available as open source under the terms of the [MIT License](http://
 ## Special Thanks
   
   Abhilash Vannarath --> abhilash1985
+  
   Shaiju E           --> eshaiju
 

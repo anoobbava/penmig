@@ -33,7 +33,7 @@ to create the generator file , use
 
 to destory the generator file
 
-    $ rails d penmig
+    $ rails destroy penmig
 
 ## Development
 

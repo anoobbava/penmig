@@ -1,7 +1,6 @@
-require 'fileutils'
-require 'pry'
-require 'optparse'
-require 'rails'
+# require 'fileutils'
+# require 'optparse'
+# require 'rails'
 module Penmig
   # this class responsible for copying the intializer to rails path
   class CopyConfig 

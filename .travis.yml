@@ -1,10 +1,15 @@
 language: ruby
+
 rvm:
   - 1.9.3
   - 2.1.0
   - 2.2.0
   - 2.3.0
+
 script: rspec spec
+
+cache: bundler
+
 addons:
-    code_climate:
-CODECLIMATE_REPO_TOKEN=5d3f2b43e8d99d24b282c475578f35322bf76dffdebd9810e0e7ff494eaef0f0
+  code_climate:
+    repo_token: 5d3f2b43e8d99d24b282c475578f35322bf76dffdebd9810e0e7ff494eaef0f0

@@ -1,4 +1,10 @@
 language: ruby
 rvm:
-  - 2.2.1
-before_install: gem install bundler -v 1.10.6
+  - 1.9.3
+  - 2.1.0
+  - 2.2.0
+  - 2.3.0
+script: rspec spec
+addons:
+    code_climate:
+CODECLIMATE_REPO_TOKEN=5d3f2b43e8d99d24b282c475578f35322bf76dffdebd9810e0e7ff494eaef0f0

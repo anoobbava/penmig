@@ -1,3 +1,9 @@
+{<img src="https://badge.fury.io/rb/penmig.svg" alt="Gem Version" />}[https://badge.fury.io/rb/penmig]
+{<img src="https://codeclimate.com/github/anoobbava/penmig/badges/gpa.svg" />}[https://codeclimate.com/github/anoobbava/penmig]
+{<img src="https://codeclimate.com/github/anoobbava/penmig/badges/coverage.svg" />}[https://codeclimate.com/github/anoobbava/penmig/coverage]
+{<img src="https://codeclimate.com/github/anoobbava/penmig/badges/issue_count.svg" />}[https://codeclimate.com/github/anoobbava/penmig]
+{<img src="https://travis-ci.org/anoobbava/penmig.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/anoobbava/penmig]
+
 # Penmig
 
 We dont have to worry about migration is development any more. 
@@ -11,7 +17,7 @@ server. It will be only notfied at the time of redirecting the pages. penmig hel
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your application's Gemfile in group :development
 
 ```ruby
 gem 'penmig'

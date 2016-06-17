@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
                             Dir['lib/**/*.rb']
   spec.required_ruby_version = '>= 1.9.3'
 
-  spec.add_development_dependency "bundler", "~> 1.10"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency 'bundler', '~> 0'
+  spec.add_development_dependency 'rake', '~> 0'
   spec.add_development_dependency 'rails', '~> 3.2', '>= 3.2.0'
   spec.add_development_dependency 'rspec', '~> 0'
 end

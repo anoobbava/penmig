@@ -1,9 +1,8 @@
-<img src="https://badge.fury.io/rb/penmig.svg" alt="Gem Version" />
-<img src="https://codeclimate.com/github/anoobbava/penmig/badges/gpa.svg" />
-<img src="https://codeclimate.com/github/anoobbava/penmig/badges/coverage.svg" />
-<img src="https://codeclimate.com/github/anoobbava/penmig/badges/issue_count.svg" />
-<img src="https://travis-ci.org/anoobbava/penmig.svg?branch=master" alt="Build Status" />
-
+[![Gem Version](https://badge.fury.io/rb/penmig.svg)](https://badge.fury.io/rb/penmig)
+[![Code Climate](https://codeclimate.com/github/anoobbava/penmig/badges/gpa.svg)](https://codeclimate.com/github/anoobbava/penmig)
+[![Test Coverage](https://codeclimate.com/github/anoobbava/penmig/badges/coverage.svg)](https://codeclimate.com/github/anoobbava/penmig/coverage)
+[![Issue Count](https://codeclimate.com/github/anoobbava/penmig/badges/issue_count.svg)](https://codeclimate.com/github/anoobbava/penmig)
+[![Build Status](https://travis-ci.org/anoobbava/penmig.svg?branch=master)](https://travis-ci.org/anoobbava/penmig)
 # Penmig
 
 We dont have to worry about migration is development any more. 

@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'pry'
 require './lib/generators/penmig/penmig_generator.rb'
 
 describe PenmigGenerator do

@@ -19,8 +19,4 @@ Gem::Specification.new do |spec|
                             Dir['config/*.yml'] +
                             Dir['lib/**/*.rb']
   spec.required_ruby_version = '>= 1.9.3'
-
-  spec.add_development_dependency 'rake', '~> 0'
-  spec.add_development_dependency 'rails', '~> 3.2', '>= 3.2.0'
-  spec.add_development_dependency 'rspec', '~> 0'
 end

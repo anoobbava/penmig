@@ -7,7 +7,7 @@ rvm:
   - 2.3.0
 
 script: 
-  - bundle exec rspec
+  - bundle exec rspec && CODECLIMATE_REPO_TOKEN=5d3f2b43e8d99d24b282c475578f35322bf76dffdebd9810e0e7ff494eaef0f0 bundle exec codeclimate-test-reporter
 
 cache: bundler
 
